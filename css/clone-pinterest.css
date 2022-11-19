@@ -1,0 +1,91 @@
+html{
+   margin: 0;
+   padding: 0;
+   font-size: 14px;
+   font-family: 'Roboto', sans-serif;;
+   background-color: white;
+   box-sizing: border-box;
+}
+header{
+   width: 100%;
+   height: 60%;
+}
+
+header nav{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 15px 15px;
+   
+}
+header nav a{
+ padding: 5px;
+ text-decoration: none;
+ color: black;
+ 
+}
+
+header nav .app-goole span:hover{
+   background-color: rgb(0, 32, 136);
+}
+header nav a:hover{
+   text-decoration: underline;
+}
+
+main{
+   text-align: center;
+   margin-top: 50px;
+}
+main .npm-google{
+   width: 530px;
+   margin: 0 auto;
+   margin-bottom: 35px;
+
+}
+main .npm-google img{
+   width: 300px;
+}
+main .btn-input{
+   width: 430px;
+   margin: 0 auto;
+   margin-bottom: 35px;
+}
+main .input-container{
+   width: 500px;
+   border-radius: 100px;
+   border: 1px solid #454545;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main .input-container input{
+   width: 450px;
+   height: 40px;
+   border: none;
+   outline: none;
+}
+
+main .btn-input{
+   width: 530px;
+   margin: 5 auto;
+}
+
+main .btn-input div{
+   display: inline-block;
+}
+main .btn-input button{
+   height: 36px;
+   background-color: #ffffff59;
+   border: 0;
+   font-size: 15px;
+   color: #000000;
+   border-radius: 5px;
+   padding: 0 15px;
+   margin-right: 20px;
+   border: 1px solid transparent;
+   cursor: pointer;
+}
+main .btn-input button:hover{
+   background-color: rgba(255, 255, 255, 0.137);
+   border: 1px solid rgba(46, 44, 44, 0.24);
+}
